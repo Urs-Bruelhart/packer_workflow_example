@@ -12,7 +12,7 @@
   "floating_ip_pool": "external",
   "ssh_username": "ubuntu",
   "image_name": "ubuntu_1",
-  "networks": [ "ef7cd6df-58b1-4b13-8acf-b9028cfc2063" ],
+  "networks": [ "80bf765e-f8ab-400b-bb6e-012c4a377661" ],
   "source_image": "fac44017-7704-4b86-a068-460412d1462c",
   "flavor": "m1.small",
   "insecure": "true"
