@@ -20,6 +20,6 @@
   ],
   "provisioners": [{
     "type": "shell",
-    "inline": ["sudo chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'"]
+    "inline": ["sudo sleep 100"]
   }]
 }
