@@ -19,7 +19,7 @@
   }
   ],
   "provisioners": [{
-    "type": "chef-client",
-    "cookbook_paths": ["cookbooks"]
+    "type": "shell",
+    "inline": ["sudo chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'"]
   }]
 }
