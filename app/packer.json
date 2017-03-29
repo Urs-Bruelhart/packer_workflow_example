@@ -19,6 +19,6 @@
   ],
   "provisioners": [{
     "type": "shell",
-    "inline": ["ls"]
+    "inline": ["chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'"]
   }]
 }
