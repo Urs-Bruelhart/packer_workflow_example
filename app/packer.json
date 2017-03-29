@@ -6,14 +6,14 @@
   "tenant_name": "admin",
   "domain_name": "Default",
   "username": "admin",
-  "password": "password",
+  "password": "abc123",
   "region": "RegionOne",
   "use_floating_ip": true,
-  "floating_ip_pool": "external",
+  "floating_ip_pool": "public",
   "ssh_username": "ubuntu",
   "image_name": "ubuntu_1",
-  "networks": ["80bf765e-f8ab-400b-bb6e-012c4a377661"],
-  "source_image": "fac44017-7704-4b86-a068-460412d1462c",
+  "networks": ["48b7947d-1c8d-4444-a0e7-1ae43e3a8a1b"],
+  "source_image": "0af35f58-894b-4af2-b448-121d9368c226",
   "flavor": "m1.tiny",
   "insecure": "true"
   }
