@@ -2,7 +2,7 @@
 "builders": [
   {
   "type": "openstack",
-  "identity_endpoint": "http://controller:35357/v2",
+  "identity_endpoint": "http://172.19.74.169:35357/v2",
   "tenant_name": "admin",
   "username": "admin",
   "password": "abc123",
