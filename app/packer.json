@@ -3,6 +3,7 @@
   {
   "type": "openstack",
   "identity_endpoint": "http://172.19.74.169:35357/v2",
+  "domain_name" : "default",
   "tenant_name": "admin",
   "username": "admin",
   "password": "abc123",
