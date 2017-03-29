@@ -13,7 +13,7 @@
   "image_name": "ubuntu_1",
   "networks": ["48b7947d-1c8d-4444-a0e7-1ae43e3a8a1b"],
   "source_image": "0af35f58-894b-4af2-b448-121d9368c226",
-  "flavor": "m1.tiny",
+  "flavor": "m1.small",
   "insecure": "true"
   }
   ],
