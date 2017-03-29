@@ -4,7 +4,6 @@
   "type": "openstack",
   "identity_endpoint": "http://controller:35357/v3",
   "tenant_name": "admin",
-  "domain_name": "Default",
   "username": "admin",
   "password": "abc123",
   "region": "RegionOne",
