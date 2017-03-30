@@ -19,6 +19,6 @@
   ],
   "provisioners": [{
     "type": "shell",
-    "inline": ["chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'"]
+    "inline": ["sudo wait 100s"]
   }]
 }
