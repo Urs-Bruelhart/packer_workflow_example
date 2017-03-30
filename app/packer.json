@@ -10,9 +10,9 @@
   "use_floating_ip": true,
   "floating_ip_pool": "public",
   "ssh_username": "ubuntu",
-  "image_name": "centOS_1",
+  "image_name": "ubuntu_1",
   "networks": ["2c6d5efb-5617-4cd9-b1a6-c7a5313378f6"],
-  "source_image": "fff659b2-2617-469f-af77-c72b06d13570",
+  "source_image": "0af35f58-894b-4af2-b448-121d9368c226",
   "flavor": "m1.small",
   "insecure": "true"
   }
