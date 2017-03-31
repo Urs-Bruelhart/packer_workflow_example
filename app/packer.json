@@ -19,6 +19,6 @@
   ],
   "provisioners": [{
     "type": "shell",
-    "inline": ["sudo sleep 100s"]
+    "inline": ["sudo ls"]
   }]
 }
