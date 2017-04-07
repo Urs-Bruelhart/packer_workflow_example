@@ -8,7 +8,7 @@
   "type": "openstack",
   "identity_endpoint": "http://172.19.74.169:5000/v2",
   "tenant_name": "admin",
-  "Image_ID" : "Unique_ID",
+  "Image_ID" : "{{ User 'Unique_ID' }}",
   "username": "admin",
   "password": "abc123",
   "region": "RegionOne",
