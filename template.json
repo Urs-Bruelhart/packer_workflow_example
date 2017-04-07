@@ -1,10 +1,14 @@
 {
+ "variables": 
+  {
+  "Unique_ID": "{{UUID}}",
+  },
 "builders": [
   {
   "type": "openstack",
-  "uuid_name" : "{uuid}",
   "identity_endpoint": "http://172.19.74.169:5000/v2",
   "tenant_name": "admin",
+  "Image_ID" : "Unique_ID",
   "username": "admin",
   "password": "abc123",
   "region": "RegionOne",
